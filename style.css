@@ -66,16 +66,37 @@ header{
     border-radius: 5px;
 }
 
-main{
-    background-color: aqua;
-}
-
 .divisinha{
+    font-family: sans-serif;
     margin-top: 200px;
-    height: 200px;
-    width: 100%;
     border-radius: 25px;
-    background-color: grey;
-
+    background-color: #E6E3E3;
+    display: flex;
+    align-items: center;
+    margin: 40px;
+    padding: 50px;
 }
 
+.divisinha div{
+    margin-left: 10vh;
+}
+
+#p{
+    height: 10vh;
+    width: 40vh;
+}
+
+#seg{
+    height: 10vh;
+    width: 40vh;
+}
+
+#ter{
+    height: 10vh;
+    width: 40vh;
+}
+
+#qua{
+    height: 10vh;
+    width: 40vh;
+}
