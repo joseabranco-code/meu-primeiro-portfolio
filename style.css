@@ -100,3 +100,47 @@ header{
     height: 10vh;
     width: 40vh;
 }
+
+.secao-titulo{
+    display: flex;
+    font-size: 14px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card{
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    max-width: max-content;
+    padding: 20px;
+}
+
+.tag {
+    color: aquamarine;
+    background-color: #ccc;
+    width: max-content;
+    padding: 4px;
+    border-radius: 800px;
+}
+
+.card-subtitle {
+    max-width: 200px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 16px;
+}
+
+.card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-html {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
