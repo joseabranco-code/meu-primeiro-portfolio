@@ -101,9 +101,12 @@ header{
     width: 40vh;
 }
 
+#section {
+    padding: 40px;
+}
 .secao-titulo{
     display: flex;
-    font-size: 14px;
+    justify-content: space-between;    
 }
 
 .container {
@@ -113,10 +116,11 @@ header{
 }
 
 .card{
+    margin: 0 auto;
     border: 1px solid #ccc;
     border-radius: 8px;
     max-width: max-content;
-    padding: 20px;
+    padding: 7vh;
 }
 
 .tag {
@@ -125,9 +129,14 @@ header{
     width: max-content;
     padding: 4px;
     border-radius: 800px;
+    margin: 0px 0px 15px 0px;
 }
 
 .card-subtitle {
+    font-weight: bold;
+}
+
+.card-texto {
     max-width: 200px;
     border-bottom: 1px solid #ccc;
     padding-bottom: 16px;
@@ -143,4 +152,14 @@ header{
     display: flex;
     align-items: center;
     gap: 4px;
+}
+
+.sec{
+    padding-left: 10vh;
+    background-color: aquamarine;
+}
+
+.hab {
+    background-color: red;
+    
 }
