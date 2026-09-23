@@ -155,11 +155,47 @@ header{
 }
 
 .sec{
+    height: 20vh;
     padding-left: 10vh;
-    background-color: aquamarine;
 }
 
 .hab {
-    background-color: red;
-    
+    margin-top: 10vh;
+}
+
+#pezao{
+    margin-top: 7vh;
+    display: flex;
+    gap: 1vw;
+}
+
+.bot1{
+    width: max-content;
+    padding: 10px 25px;
+    border-radius: 80px;
+    color: white;
+    background: black;
+}
+
+.bot2 {
+    font-family: sans-serif;
+    width: max-content;
+    padding: 10px 25px;
+    border-radius: 80px;
+    background: rgb(225, 224, 224);
+}
+
+.copy {
+    margin-top: 15vh;
+    gap: 15px;
+    padding: 3vh;
+    border-top: 1px solid grey;
+    display: flex;
+}
+
+.name{
+    padding-left: 10vh;
+}
+.git{
+    margin-left: auto;
 }
